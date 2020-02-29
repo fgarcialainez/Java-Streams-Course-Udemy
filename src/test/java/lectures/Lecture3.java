@@ -19,7 +19,7 @@ public class Lecture3 {
                 .min(Comparator.naturalOrder())
                 .get();
 
-        assertThat(min.equals(1));
+        assertThat(min).isEqualTo(1);
         System.out.println("Minimum number is " + min);
     }
 
@@ -31,7 +31,7 @@ public class Lecture3 {
                 .max(Comparator.naturalOrder())
                 .get();
 
-        assertThat(max.equals(100));
+        assertThat(max).isEqualTo(100);
         System.out.println("Maximum number is " + max);
     }
 }
