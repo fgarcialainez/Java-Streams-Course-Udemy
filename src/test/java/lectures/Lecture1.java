@@ -30,7 +30,7 @@ public class Lecture1 {
                 youngPeople.add(person);
             }
 
-            if(youngPeople.size() == 10) {
+            if (youngPeople.size() == 10) {
                 break;
             }
         }
