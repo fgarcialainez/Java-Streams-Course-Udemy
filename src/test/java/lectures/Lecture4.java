@@ -1,6 +1,5 @@
 package lectures;
 
-
 import static org.assertj.core.api.Assertions.assertThat;
 
 import com.google.common.collect.ImmutableList;

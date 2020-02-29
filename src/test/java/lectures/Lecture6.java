@@ -1,6 +1,5 @@
 package lectures;
 
-
 import com.google.common.collect.Lists;
 import java.util.Arrays;
 import java.util.function.Predicate;
@@ -22,4 +21,3 @@ public class Lecture6 {
 
   }
 }
-
